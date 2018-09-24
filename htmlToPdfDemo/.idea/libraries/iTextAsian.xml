@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="iTextAsian">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/iTextAsian.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/iTextAsian.jar!/" recursive="false" />
+  </library>
+</component>

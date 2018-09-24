@@ -1,0 +1,356 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td ,textarea { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 16px; line-height: 1.5; font-family:"MicrosoftYaHei",微软雅黑,"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",sans-serif;
+/*font-family:'Microsoft Yahei','simsun','arial','tahoma',"PingFangSC-Regular";*/ 
+  color: #222;  
+}
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a { text-decoration: none; color: #666; background: none }
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+ p{
+  padding: 0;
+  margin: 0;
+ }
+  .tionmen{
+  background: #6e6e6e;
+ }
+ /*计算书模版*/
+.calcu{
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 595px;
+  height: 842px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;  
+  color: #4f5f6f;
+}
+.neiou{
+  width: 556px;
+  height: 785px;
+  border: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.foot{
+  font-size: 10px;
+  color: #969696;
+  padding-top: 10px;
+}
+.onei{
+  width: 160px;
+  height: 156px;
+  border-bottom: 1px solid #59c2e6;
+  border-right: 1px solid #59c2e6;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+.fot14{
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  color: #4f5f6f;
+  padding-top: 5px;
+}
+.fot12{
+  font-size: 12px;
+  padding-left: 10px;
+}
+.towe{
+  width: 225px;
+  height: 156px;
+  border-bottom: 1px solid #59c2e6;
+  border-right: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.fot18{
+  height: 56px;
+  border-bottom: 1px solid #59c2e6;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  padding:6px 10px;
+  line-height: 22px;
+}
+.lhoc{
+  line-height: 99px;
+}
+.ylb{
+  width: 168px;
+  box-sizing: border-box;
+}
+.ylb li{
+  font-size: 12px;
+  padding-left: 10px;
+  height: 26px;
+  line-height: 25px;
+  border-bottom: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.ylb li span{
+  display: inline-block;
+  width: 40px;
+  border-left: 1px solid #59c2e6;
+  text-align: center;
+}
+.sriy{
+  height: 564px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.fotm14 li{
+  float: left;
+  width: 91px;
+  height: 31px;
+  border: 1px solid #59c2e6;
+  border-left: 0;
+  border-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+}
+.fotm14 li:nth-child(1),.fotm14 li:nth-child(7){
+  width: 93px;
+}
+.fotm14 li:nth-child(6),.fotm14 li:nth-child(12){
+  border-right: 0;                                                                      
+}
+/*计算书2*/
+.neiou2{
+  width: 556px;
+  height: 802px;
+  border: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.onei2{
+  width: 160px;
+  height: 81px;
+  border-bottom: 1px solid #59c2e6;
+  border-right: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.towe2{
+  width: 225px;
+  height: 81px;
+  border-bottom: 1px solid #59c2e6;
+  border-right: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.ylb2{
+  width: 168px;
+  box-sizing: border-box;
+}
+.ylb2 li{
+  font-size: 12px;
+  padding-left: 10px;
+  height: 27px;
+  line-height: 25px;
+  border-bottom: 1px solid #59c2e6;
+  box-sizing: border-box;
+}
+.ylb2 li span{
+  display: inline-block;
+  width: 40px;
+  border-left: 1px solid #59c2e6;
+  text-align: center;
+}
+.towe2 .fot18{
+  height: 56px;
+  border: 0;
+box-sizing: border-box;
+font-size: 18px;
+text-align: center;
+padding: 10px;
+line-height: 30px;
+}
+.sriy2{
+  box-sizing: border-box;
+  padding: 0 30px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.sriy2>p{
+  font-size: 18px;
+  line-height: 35px;
+}
+.sriy2>div{
+  font-size: 14px;
+  line-height: 32px;
+  padding-bottom: 30px;
+}
+.sriy2 h1{
+  line-height: 105px;
+  font-size: 20px;
+  text-align: center;
+}
+.sriy2 ul li.blo{
+  font-size: 18px;
+}
+.sriy2 ul li{
+  font-size: 14px;
+  line-height: 30px;
+}
+/*计算书4*/
+.sriy4{
+  box-sizing: border-box;
+  padding: 0 30px;
+  padding-top: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.sriy4>p{
+  font-size: 18px;
+  line-height: 35px;
+}
+.sriy4 h1{
+  font-size: 20px;
+  text-align: center;
+}
+.tabl{
+  width: 100%;
+  border-collapse:collapse;
+}
+.sriy>span{
+  font-size: 12px;
+}
+.tabl th{
+  font-size: 14px;
+}
+.tabl th,.tabl td{
+  font-size: 12px;
+  color: #4f5f6f;
+  border: 1px solid #c8c8c8;
+  line-height: 13px;
+    padding: 4px 0;
+  text-align: center;
+}
+.tabl th{
+  font-size: 14px;
+}
+
+.abc{font-size:10px;    -webkit-transform: scale(0.8);} 
+/*计算书5*/
+.sriy5{
+  box-sizing: border-box;
+  padding: 0 30px;
+  padding-top: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.sriy5>.kop{
+  font-size: 18px;
+  line-height: 35px;
+}
+.sriy5>p{
+  font-size: 16px;
+}
+.dio{
+  color: #4f5f6f;
+  font-size: 14px;
+  text-indent: 25px;
+  line-height: 24px;
+}
+.dio>img{
+  margin-left: 70px;
+  padding-top: 10px;
+}
+p.lihd{
+  line-height: 50px;
+}
+/*计算书6*/
+.sriy6{
+  box-sizing: border-box;
+  padding: 0 30px;
+  padding-top: 25px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.sriy6>p{
+  font-size: 18px;
+  line-height: 56px;
+}
+.tabl6{
+  width: 100%;
+  border-collapse:collapse;
+}
+.sriy6 h1{
+  line-height: 93px;
+  font-size: 20px;
+  text-align: center;
+}
+ .tabl6 th,.tabl6 .txtc{
+    text-align: center;
+ }
+.tabl6 th,.tabl6 td{
+  font-size: 12px;
+  color: #4f5f6f;
+  border: 1px solid #c8c8c8;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+}
+.tabl6 th{
+  font-size: 14px;
+}
+/*计算书7*/
+.dkoa{
+  line-height: 50px;
+  height: 56px;
+  border-bottom: 1px solid #59c2e6;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  padding:6px 10px;
+}
+.lhoc{
+     padding: 30px 20px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
